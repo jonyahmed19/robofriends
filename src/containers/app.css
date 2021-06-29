@@ -11,3 +11,6 @@
         font-weight: 200;
         font-size: 40px;
     }
+    .content tc a {
+        color: transparent;
+    }
