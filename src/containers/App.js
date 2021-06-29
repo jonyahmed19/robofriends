@@ -34,7 +34,9 @@ class App extends React.Component {
       });
       return (
         <div className='content tc'>
+          <a href='/'>
           <h1 className='tc'>Robofriends</h1>
+          </a>
           <SearchBox searchChange={this.onSearchChange} />
           <Scroll>
               <ErrorBoundary>
